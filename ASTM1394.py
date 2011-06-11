@@ -189,7 +189,11 @@ class Frame:
 		return ReformatForLog( self.Output( Counter ) )
 
 class Message:
-	
+	"""
+		An ASTM 1394 message
+		Output() should return a fully formatted ASTM message including all framing characters.
+		
+	"""
 	LineBuffer = []
 	Frames = []
 	def __init__( self ):
@@ -234,6 +238,10 @@ class Message:
 		return ReformatForLog( self.Output() )
 		
 class Device:
+	"""
+		A device object capable of connecting out to an IP/Port and sending an ASTM1394.Message
+		
+	"""
 	def __init__( self, host = '127.0.0.1', port = 8000 ):
 		self.HOST = host;
 		self.PORT = port;
