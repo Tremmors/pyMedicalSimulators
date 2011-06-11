@@ -4,7 +4,7 @@ Written by John Trimis.
 This should allow you to simulate ether an HL7 connection (ADT/Results/etc.) or an ASTM 1394/1386 connection (serially connected medical device).
 
 See the ADTSimulator.py for how to use HL7.py
-See GenericASTM.py for how to use STM1394.py
+See GenericASTM.py for how to use ATM1394.py
 
 
  
