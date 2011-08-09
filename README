@@ -3,8 +3,20 @@ Written by John Trimis.
 
 This should allow you to simulate ether an HL7 connection (ADT/Results/etc.) or an ASTM 1394/1386 connection (serially connected medical device).
 
+I made these because I needed something to quickly throw together to test out some interfaces.  They are by no means complete, and are just complex enough to be functional. A true implementation of either protocol would be a massive undertaking.  These just connect to an IP and Port and provide framing and control characters.
+
+
 See the ADTSimulator.py for how to use HL7.py
+
 See GenericASTM.py for how to use ATM1394.py
 
 
- 
+
+MIT License:
+Copyright (c) 2011 John Trimis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
